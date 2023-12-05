@@ -56,7 +56,14 @@ This project uses different models:
     
   ![oo](https://github.com/SkanderBahrini/Hate-speech-detection--Transformer/assets/74383561/e054f91a-c2f6-4817-a469-8cc3418c8ca1)
 
+  * Tokenizer: The tokenizer will divide the sequence into words then convert them into numbers ( input IDs and give attention mask)
+    **Attention Mask**: Tell the model which words to focus on in a specific sequence
+    **Input IDs**: A digit representation of a world in a sequence
 
+  * Model: Contains the model that is already pre-trained by Huggigng face
 
+  Once we downloaded our model and tokenizer from the Hugging Face hub we started using it in our web app as follows:
+  
+![text](https://github.com/SkanderBahrini/Hate-speech-detection--Transformer/assets/74383561/d343f33a-f922-448d-9d48-35ce68aab29b)
 
 
