@@ -36,3 +36,27 @@ Transformer architectures  are divided into three types:
   
 * Encoders and Decoders: A models that mix between the two previous types of architectures
 
+In this project, we used different models from Hugging Face Hub [Link Text] (https://huggingface.co/models)
+
+Hugging Face offers a set of pre-trained models (since training a transformer model consumes a lot of energy is very harmful to the environment and requires a lot of hardware resources) as Bert and Bert uncased.
+
+Users take those models and fine-tune them ( re-train them on specific tasks) example: fine-tune a model as Bert ( trained on English corpus) for specific tasks such as making it detect toxic speech ( Homophobic, Racist). Once the model is ready coders push it on their repo in Hugging Face Hub.
+
+This project uses different models:
+
+* First model: Aim to help the user understand what kind of feeling is transferred to the reader from his text.
+  
+  The checkpoint used : [Link Text] (https://huggingface.co/SamLowe/roberta-base-go_emotions)
+
+  A checkpoint is a specific file that contains model architecture and model-initialized weights.
+  To use it we have two methods:
+  
+  * Using Transformer pipeline ( Commented code)
+  * Import Tokenizer and model separately
+    
+  ![oo](https://github.com/SkanderBahrini/Hate-speech-detection--Transformer/assets/74383561/e054f91a-c2f6-4817-a469-8cc3418c8ca1)
+
+
+
+
+
