@@ -49,6 +49,7 @@ This project uses different models:
   The checkpoint used : [Click Here] (https://huggingface.co/SamLowe/roberta-base-go_emotions)
 
   A checkpoint is a specific file that contains model architecture and model-initialized weights.
+  To load the model we used **Pytorch** a machine learning framework that allows you to train and use machine learning and deep learning models. 
   To use it we have two methods:
   
   * Using Transformer pipeline ( Commented code)
