@@ -36,7 +36,7 @@ Transformer architectures  are divided into three types:
   
 * Encoders and Decoders: A models that mix between the two previous types of architectures
 
-In this project, we used different models from Hugging Face Hub [Link Text] (https://huggingface.co/models)
+In this project, we used different models from Hugging Face Hub [Click Here] (https://huggingface.co/models)
 
 Hugging Face offers a set of pre-trained models (since training a transformer model consumes a lot of energy is very harmful to the environment and requires a lot of hardware resources) as Bert and Bert uncased.
 
