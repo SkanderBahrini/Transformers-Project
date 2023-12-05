@@ -46,7 +46,7 @@ This project uses different models:
 
 * First model: Aim to help the user understand what kind of feeling is transferred to the reader from his text.
   
-  The checkpoint used : [Link Text] (https://huggingface.co/SamLowe/roberta-base-go_emotions)
+  The checkpoint used : [Click Here] (https://huggingface.co/SamLowe/roberta-base-go_emotions)
 
   A checkpoint is a specific file that contains model architecture and model-initialized weights.
   To use it we have two methods:
@@ -56,7 +56,7 @@ This project uses different models:
     
   ![oo](https://github.com/SkanderBahrini/Hate-speech-detection--Transformer/assets/74383561/e054f91a-c2f6-4817-a469-8cc3418c8ca1)
 
-  * Tokenizer: The tokenizer will divide the sequence into words then convert them into numbers ( input IDs and give attention mask)
+  * Tokenizer: The tokenizer will divide the sequence into words and then convert them into numbers ( input IDs and give attention mask)
     **Attention Mask**: Tell the model which words to focus on in a specific sequence
     **Input IDs**: A digit representation of a world in a sequence
 
