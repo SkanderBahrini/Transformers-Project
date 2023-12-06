@@ -46,7 +46,7 @@ This project uses different models:
 
 * First model: Aim to help the user understand what kind of feeling is transferred to the reader from his text.
   
-  The checkpoint used : [Click Here] (https://huggingface.co/SamLowe/roberta-base-go_emotions)
+  The checkpoint used : [Click Here] (https://huggingface.co/SamLowe/roberta-base-go_emotions) this model was created by fine-tuning Bert (bi-directional encoder representation transformer)
 
   A checkpoint is a specific file that contains model architecture and model-initialized weights.
   We used **Pytorch** to load the model, a machine learning framework that allows you to train and use machine learning and deep learning models. 
@@ -69,14 +69,16 @@ This project uses different models:
 
 * Second model: Aim to help the user summarize a text:
 
-  The checkpoint used: [Click here] (Falconsai/text_summarization)
+  The checkpoint used: [Click here] (Falconsai/text_summarization): This model was created by fine_tuning the text to text transformer T5 developed by Google:
   We used **Pytorch** as a machine learning framework to load our model and tokenizer:
   For this transformer we opted for the first method by importing it directly using pipeline processing with the aim of 'Summarization' and the checkpoint: Falconsai/text_summarization
+  You need also to have precise max_length and minimum_length of generated text
   
 ![pipeline](https://github.com/SkanderBahrini/Transformers-Project/assets/74383561/18722b80-fc0a-4cde-8e82-090e4913ade0)
 
 * Once we loaded the model we can start using it:
-![Capture d'écran 2023-12-06 222437](https://github.com/SkanderBahrini/Transformers-Project/assets/74383561/17c4afa3-0069-4ee0-8426-eccbe10e0dbf)
+
+![sum](https://github.com/SkanderBahrini/Transformers-Project/assets/74383561/65a60627-3cb4-429c-9a3a-e80bf55fcb3d)
 
 
 Happy coding 😊
