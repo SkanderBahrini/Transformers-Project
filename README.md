@@ -49,7 +49,7 @@ This project uses different models:
   The checkpoint used : [Click Here] (https://huggingface.co/SamLowe/roberta-base-go_emotions)
 
   A checkpoint is a specific file that contains model architecture and model-initialized weights.
-  To load the model we used **Pytorch** a machine learning framework that allows you to train and use machine learning and deep learning models. 
+  We used **Pytorch** to load the model, a machine learning framework that allows you to train and use machine learning and deep learning models. 
   To use it we have two methods:
   
   * Using Transformer pipeline ( Commented code)
@@ -66,5 +66,22 @@ This project uses different models:
   Once we downloaded our model and tokenizer from the Hugging Face hub we started using it in our web app as follows:
   
 ![text](https://github.com/SkanderBahrini/Hate-speech-detection--Transformer/assets/74383561/d343f33a-f922-448d-9d48-35ce68aab29b)
+
+* Second model: Aim to help the user summarize a text:
+
+  The checkpoint used: [Click here] (Falconsai/text_summarization)
+  We used **Pytorch** as a machine learning framework to load our model and tokenizer:
+  For this transformer we opted for the first method by importing it directly using pipeline processing with the aim of 'Summarization' and the checkpoint: Falconsai/text_summarization
+  
+![pipeline](https://github.com/SkanderBahrini/Transformers-Project/assets/74383561/18722b80-fc0a-4cde-8e82-090e4913ade0)
+
+* Once we loaded the model we can start using it:
+![Capture d'écran 2023-12-06 222437](https://github.com/SkanderBahrini/Transformers-Project/assets/74383561/17c4afa3-0069-4ee0-8426-eccbe10e0dbf)
+
+
+Happy coding 😊
+
+
+  
 
 
