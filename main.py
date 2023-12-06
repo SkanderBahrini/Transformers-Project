@@ -70,7 +70,7 @@ def generative(opinion):
 
 
 # Tabs division using streamlit
-tab1,tab2,tab3= st.tabs([' Text Emotion Detection ', 'e', 'r'])
+tab1,tab2= st.tabs([' Text Emotion Detection ', 'Summarize text'])
 
 
 # Tab1 cotent 
